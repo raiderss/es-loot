@@ -1,0 +1,83 @@
+Config = {
+    time = {
+        max = 20000,
+        min = 10000
+    },
+    lootChance = 100,
+    moneyChance = 25,
+    moneyReward = { min = 50, max = 500 },
+    loot = {
+        { minQty = 1, item = "water_bottle", maxQty = 3, chance = 80 },
+        { minQty = 1, item = "sandwich", maxQty = 2, chance = 60 },
+        { minQty = 1, item = "phone", maxQty = 1, chance = 20 },
+        { minQty = 1, item = "bread", maxQty = 2, chance = 50 },
+        { minQty = 1, item = "lockpick", maxQty = 1, chance = 30 },
+        { minQty = 1, item = "cigarette", maxQty = 3, chance = 50 },
+        { minQty = 1, item = "plastic", maxQty = 5, chance = 40 },
+        { minQty = 1, item = "glass", maxQty = 3, chance = 35 },
+        { minQty = 1, item = "battery", maxQty = 2, chance = 25 },
+        { minQty = 1, item = "copper", maxQty = 3, chance = 40 },
+        { minQty = 1, item = "goldbar", maxQty = 1, chance = 10 },
+        { minQty = 1, item = "diamond", maxQty = 1, chance = 5 },
+        { minQty = 1, item = "steel", maxQty = 2, chance = 30 },
+        { minQty = 1, item = "radio", maxQty = 1, chance = 15 },
+        { minQty = 1, item = "bandage", maxQty = 5, chance = 50 },
+        { minQty = 1, item = "pistol_ammo", maxQty = 1, chance = 20 },
+        { minQty = 1, item = "rifle_ammo", maxQty = 1, chance = 10 },
+        { minQty = 1, item = "scrap_metal", maxQty = 3, chance = 30 },
+        { minQty = 1, item = "repairkit", maxQty = 1, chance = 15 },
+        { minQty = 1, item = "lighter", maxQty = 1, chance = 70 },
+        { minQty = 1, item = "camera", maxQty = 1, chance = 20 },
+        { minQty = 1, item = "watch", maxQty = 1, chance = 25 },
+        { minQty = 1, item = "fish_bait", maxQty = 5, chance = 50 },
+        { minQty = 1, item = "junk", maxQty = 4, chance = 60 },
+        { minQty = 1, item = "wire", maxQty = 3, chance = 30 },
+        { minQty = 1, item = "bottle_cap", maxQty = 5, chance = 80 },
+        { minQty = 1, item = "aluminum", maxQty = 2, chance = 40 },
+        { minQty = 1, item = "wallet", maxQty = 1, chance = 20 },
+        { minQty = 1, item = "silver_chain", maxQty = 1, chance = 15 },
+        { minQty = 1, item = "gold_ring", maxQty = 1, chance = 10 },
+        { minQty = 1, item = "painkiller", maxQty = 3, chance = 25 },
+        { minQty = 1, item = "adrenaline_shot", maxQty = 1, chance = 15 }
+    },
+    box = {
+        { animation = "PROP_HUMAN_BUM_BIN", model = -58485588 }, -- prop_dumpster_02b
+        { animation = "PROP_HUMAN_BUM_BIN", model = 666561306 }, -- prop_dumpster_01a
+        { animation = "PROP_HUMAN_BUM_BIN", model = 218085040 }, -- prop_dumpster_4a
+        { animation = "PROP_HUMAN_BUM_BIN", model = -206690185 }, -- prop_dumpster_3a
+        { animation = "PROP_HUMAN_BUM_BIN", model = -461762209 }, -- prop_dumpster_4b
+        { animation = "PROP_HUMAN_BUM_BIN", model = -994492850 }, -- prop_dumpster_02a
+        { animation = "PROP_HUMAN_BUM_BIN", model = 1437508529 },
+        { animation = "PROP_HUMAN_BUM_BIN", model = -1096777189 },
+        { animation = "PROP_HUMAN_BUM_BIN", model = -228596739 },
+        { animation = "WORLD_HUMAN_BUM_WASH", model = 1388308576 },
+        { animation = "WORLD_HUMAN_STAND_IMPATIENT", model = 1363150739 },
+        { animation = "PROP_HUMAN_ATM", model = -654402915 },
+        { animation = "PROP_HUMAN_ATM", model = 690372739 },
+        { animation = "WORLD_HUMAN_GARDENER_LEAF_BLOWER", model = -1861623876 },
+        { animation = "WORLD_HUMAN_GARDENER_PLANT", model = 2139919312 },
+        { animation = "WORLD_HUMAN_MAID_CLEAN", model = -1236898042 },
+        { animation = "WORLD_HUMAN_SECURITY_SHINE_TORCH", model = 1182205549 },
+        { animation = "PROP_HUMAN_SEAT_CHAIR_MP_PLAYER", model = -1053433850 },
+        { animation = "PROP_HUMAN_BBQ", model = -93819890 },
+        { animation = "WORLD_HUMAN_BINOCULARS", model = 600913159 },
+        { animation = "WORLD_HUMAN_CLIPBOARD", model = 589738836 },
+        { animation = "WORLD_HUMAN_BUM_FREEWAY", model = 0x13A84B42 },
+        { animation = "WORLD_HUMAN_MUSCLE_FLEX", model = 1355718178 },
+        { animation = "WORLD_HUMAN_DRINKING", model = -667151410 },
+        { animation = "WORLD_HUMAN_SMOKING", model = 1039360035 },
+        { animation = "PROP_HUMAN_PARKING_METER", model = -655644382 },
+        { animation = "WORLD_HUMAN_VEHICLE_MECHANIC", model = 1911541273 },
+        { animation = "WORLD_HUMAN_PROSTITUTE_HIGH_CLASS", model = 379276462 },
+        { animation = "WORLD_HUMAN_DRUG_DEALER_HARD", model = -251505853 },
+        { animation = "PROP_HUMAN_SEAT_CHAIR", model = 1625728984 },
+        { animation = "WORLD_HUMAN_JANITOR", model = 1143476884 },
+        { animation = "WORLD_HUMAN_PUSH_UPS", model = 1052958544 },
+        { animation = "WORLD_HUMAN_YOGA", model = 332811509 },
+        { animation = "WORLD_HUMAN_LEANING", model = -867355934 },
+        { animation = "WORLD_HUMAN_HAMMERING", model = 1409640232 },
+        { animation = "PROP_HUMAN_SEAT_CHAIR_UPRIGHT", model = -741944541 },
+        { animation = "WORLD_HUMAN_STAND_MOBILE", model = 1420703640 },
+        { animation = "PROP_HUMAN_SEAT_CHAIR_FOLDABLE", model = 68070371 }
+    }
+}
